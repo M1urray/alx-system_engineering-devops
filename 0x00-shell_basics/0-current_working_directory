@@ -1,0 +1,4 @@
+#!/bin/bash 
+echo $file
+dir_path=$(dirname $file)
+echo dir_path
