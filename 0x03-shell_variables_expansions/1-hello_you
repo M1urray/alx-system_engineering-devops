@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 _user="$(id -u -n)" echo "Hello $_user"
+=======
+echo "Hello $USER"
+>>>>>>> 8fc51d5c5fb1b0b690936aa982d8ee0cc98102e6
