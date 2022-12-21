@@ -2,7 +2,7 @@
 # Configure server with: HAproxy version 1.5 or greater
 # Distributes request using roundrobin; sends traffic to servers: web-01 and web-02
 
-CFG="\\\nlisten appname 0.0.0.0:80\n\tmode http\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor\n\tserver 11620-web-01 3.90.65.55 check\n\tserver 11620-web-02 100.25.109.146 check\n"
+CFG="\\\nlisten appname 0.0.0.0:80\n\tmode http\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor\n\tserver 11620-web-01 54.172.237.9 check\n\tserver 11620-web-02 100.26.214.155 check\n"
 
 sudo apt-get update
 sudo apt-get -y install nginx
