@@ -7,7 +7,6 @@ import csv
 import requests
 from sys import argv
 
-
 def to_csv():
     """return API data"""
     users = requests.get("http://jsonplaceholder.typicode.com/users")

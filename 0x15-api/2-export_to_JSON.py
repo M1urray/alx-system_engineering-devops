@@ -7,7 +7,6 @@ from sys import argv
 import json
 import requests
 
-
 def to_json():
     """return API data"""
     users = requests.get("http://jsonplaceholder.typicode.com/users")
