@@ -6,6 +6,7 @@ Export this data to JSON
 import json
 import requests
 
+
 def all_to_json():
     """return API data"""
     USERS = []

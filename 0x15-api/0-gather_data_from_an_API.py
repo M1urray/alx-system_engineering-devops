@@ -5,6 +5,7 @@ Request from API; Return TODO list progress given employee ID
 import requests
 from sys import argv
 
+
 def display():
     """return API data"""
     users = requests.get("http://jsonplaceholder.typicode.com/users")
